@@ -1,0 +1,114 @@
+
+body {
+  background-color:  #2f8b7f;
+  
+ }
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   list-style-type: none;
+  }
+
+
+
+li {
+  height: auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 30px;
+  border-style: inset;
+  background: rgb(255, 255, 255);
+  word-wrap: break-word;
+  text-decoration: underline;
+  font-family: cursive;
+  }
+
+li:hover{
+  color: white;
+  background-color: gray;
+}
+
+.libotao {
+  width: 2px;
+  height: 2px;
+  background-color: red;
+  border: 1px solid rgb(8, 8, 8);
+  border-radius: 25px;
+
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px 0px 0px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 25px;
+
+}
+
+.libotao:hover{
+  background-color: rgb(150, 58, 58);
+}
+
+.styled {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 0, 0, 1);
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+h1,h2 {
+  text-align: center;
+  color: #fff;
+  
+
+}
+
+.botao {
+  border-radius: 10%;
+  left: 50%;
+  width: 150px;
+}
+
+.botao:hover{
+ background-color: gray;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  
+}
